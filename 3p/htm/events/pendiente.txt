@@ -1,0 +1,9 @@
+///euros <-> dolares 
+///grados K <-> C
+///km <-> millas
+///galones <-> litros
+///radianes <-> grados
+chars()
+words()
+sentences()
+paragraphs()
