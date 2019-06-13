@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Use Shapes</title>
+
+    <script src="../Point.js"></script>
+    <script src="../Rectangulo.js"></script>
+    <script src="../Triangulo.js"></script>
+    <script src="../Line.js"></script>
+    <script src="../Circulo.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/raphael@2.2.7/raphael.min.js"></script>
+
+    <h1>useShapes</h1>
+</head>
+<body>
+
+    <div id="svg"></div>
+    <!-- <div id="line" class="center-align section"></div> -->
+    <!-- <div id="trian" class="center-align section"></div> -->
+    <!-- <div id="cuad" class="center-align section"></div> -->
+    <!-- <div id="rect" class="center-align section"></div> -->
+    <!-- <div id="cir" class="center-align section"></div> -->
+
+
+    <script> //line
+        var px=new Point(100,100);
+        var py=new Point(200,100);
+        var li= new Line(px,py);    
+        var paper = Raphael(document.getElementById("svg"),600,400);
+        paper.rect(0,0,600,400);return x
+        var line = paper.path("M"+ li.px.x+","+li.px.y+"L"+ li.py.x+","+li.py.y )
+        line.attr("stroke-width",10);
+    </script>
+    <script> //cuad
+            // var paper = Raphael(document.getElementById("svg"),600,400);
+            // paper.rect(0,0,600,400)
+
+            // var line = paper.path("M"+"100, 100" +"L"+ "400, 100")
+            // line.attr("stroke-width",10);
+        </script>
+</body>
+
+</html>

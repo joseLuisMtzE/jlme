@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fraction</title>
+</head>
+<body>
+    <script src="./fraction.js"></script>
+    <!---x/y + x/y button x/y     con flechitas-->
+
+    <h1 style="text-align: center; font-family: monospace; color:rgb(0, 0, 0); text-shadow: 0px 2.5px 10px rgba(0, 0, 0, 0.582)">Fraction</h1>
+<!-- <div class="primer" style="text-align:start">
+    
+        <input type="number">       <input type="number"> <input type="number"><br><br> 
+        __________________       __________________ __________________ <br> <br>
+        <input type="number">       <input type="number"> <input type="number"><br>
+      
+    </div>
+    
+    <select name="" id="op">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+    </select> -->
+    <div class="container" style="text-align: center">
+    <input type="number" id="n1"> <br><br> 
+        <hr style="width:145px; color: black; " >
+    <input type="number" id="d1"> <br> <br>
+
+    <select name="" id="op"> 
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select> <br> <br>
+    
+    <input type="number" id="n2"> <br><br> 
+        <hr style="width:145px; color: black; " >
+    <input type="number" id="d2"> <br><br>
+
+    <input type="button" value="Solve" style="background: rgb(7, 196, 7); color: white; font-weight:bold;" onclick="solve()"> <br><br>
+
+    <textarea name="" readonly="1" id="rn" style="width: 140px; height: 17px;"></textarea> <br><br> 
+        <hr style="width:145px; color: black; " > 
+    <textarea name="" readonly="1" id="rd" style="width: 140px; height: 17px;"></textarea> <br><br> 
+    
+    <input type="button" value="Reset" onclick="reset()" style="background: rgb(153, 2, 2); color: white; font-weight:bold;"> <br><br>
+
+    <img src="https://i.ytimg.com/vi/RZhreNsMSbg/hqdefault.jpg" width="300" height="200">
+    </div>
+
+
+
+    
+</body>
+</html>
